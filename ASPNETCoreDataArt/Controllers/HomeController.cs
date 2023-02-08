@@ -23,11 +23,6 @@ namespace ASPNETCoreDataArt.Controllers
             return View();
         }
 
-        public IActionResult TextOutput()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
